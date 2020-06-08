@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>399</width>
+    <height>147</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Filtrar planilha</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(17, 17, 17);
+font: 8pt &quot;Tahoma&quot;;
+color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1" colspan="3">
+     <widget class="QLabel" name="labelVariantes">
+      <property name="text">
+       <string>Inserir variações entre vírgulas (ex: email, e mail) </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QPushButton" name="btnSetColumn">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(77, 77, 77);</string>
+      </property>
+      <property name="text">
+       <string>Definir coluna</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="btnOpenFile">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(77, 77, 77);</string>
+      </property>
+      <property name="text">
+       <string>Abrir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QPushButton" name="btnFilter">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(77, 77, 77);
+border-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>Filtrar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="labelTermo">
+      <property name="text">
+       <string>Inserir termo (ex: e-mail)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1" colspan="2">
+     <widget class="QLineEdit" name="inputVariantes">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="2">
+     <widget class="QLineEdit" name="inputChooseFile">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLineEdit" name="inputTermo">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="labelColuna">
+      <property name="text">
+       <string>Coluna:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="labelOpen">
+      <property name="text">
+       <string>Escolher arquivo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" colspan="2">
+     <widget class="QLineEdit" name="inputColuna">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 8pt &quot;Comic Sans MS&quot;;
+color: rgb(33, 33, 33);</string>
+      </property>
+      <property name="text">
+       <string>by: @nidogeology</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="btnSaveFile">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(77, 77, 77);</string>
+      </property>
+      <property name="text">
+       <string>Salvar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="btnRest">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(77, 77, 77);</string>
+      </property>
+      <property name="text">
+       <string>Gerar restante</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+   <zorder>btnFilter</zorder>
+   <zorder>labelTermo</zorder>
+   <zorder>inputTermo</zorder>
+   <zorder>inputVariantes</zorder>
+   <zorder>labelVariantes</zorder>
+   <zorder>inputChooseFile</zorder>
+   <zorder>labelOpen</zorder>
+   <zorder>labelColuna</zorder>
+   <zorder>inputColuna</zorder>
+   <zorder>btnSetColumn</zorder>
+   <zorder>btnOpenFile</zorder>
+   <zorder>label</zorder>
+   <zorder>btnSaveFile</zorder>
+   <zorder>btnRest</zorder>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>inputChooseFile</tabstop>
+  <tabstop>btnOpenFile</tabstop>
+  <tabstop>inputColuna</tabstop>
+  <tabstop>btnSetColumn</tabstop>
+  <tabstop>inputTermo</tabstop>
+  <tabstop>inputVariantes</tabstop>
+  <tabstop>btnFilter</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
